@@ -1,18 +1,22 @@
 img{
+  display:block;
    margin-left:auto;
    margin-right:auto;
 }
 h1{
    text-align: center;
-   font-family:Verdana,serif;
+   font-size:3em;
 }
-h3{
+h2{
    text-align: center;
-   font-family:Verdana,serif;
+}
+h4{
+   font-style: italic;
+   font-size:1.5em;
+   color:red;
 }
 p{
    font-weight: bold;
-   font-family:Verdana,serif;
 }
 a{
   text-decoration:none;
