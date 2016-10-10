@@ -1,0 +1,30 @@
+
+html{
+	background-color: black;
+  background-image:url(http://www.spyderonlines.com/images/wallpapers/desert-road-wallpaper/desert-road-wallpaper-25.jpg);
+  background-size: 100%;
+}
+
+*{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:white;
+	text-shadow: 3px 3px 3px #000000;
+}
+
+.container{
+	text-align: center;
+	margin-top:20px;
+	border-bottom: solid 1px white;
+}
+
+.columns{
+	padding: 20px;
+	font-size: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	padding-right: 50px;
+	padding-left: 0px;
+}
