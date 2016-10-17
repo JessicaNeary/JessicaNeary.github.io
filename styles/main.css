@@ -1,8 +1,7 @@
 
 html{
-	background-color: black;
-  background-image:url(http://www.spyderonlines.com/images/wallpapers/desert-road-wallpaper/desert-road-wallpaper-25.jpg);
-  background-size: 100%;
+  background: url(../images/wallpaper.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 *{
@@ -19,26 +18,43 @@ html{
 }
 
 .blognav{
-	width: 90em;
+	display: block;
 	empty-cells: show;
-	padding:0px;
+	border-bottom: none;
+	width: 90%;
+	border: solid 10px blue;
 }
 
 .bloglinks{
 	background-color: rgba(10, 10, 10, 0.2);
-	border-style: none;
+	border: solid 10px green;
+	width: 70%;
 }
 
-	.week{
-		float: right;
+	.weekhead{
+		padding-left: 1rem;
+		text-align: right;
 		border-style: none;
+		width: 20%;
+		border: solid 10px red;
+		/*position: relative;*/
+	}
+
+	.weekbody{
+		/*display: -webkit-flex;*/
+		display: inline-flex;
+		flex-wrap: wrap;
+		padding-bottom:1.5rem;
+		border: solid 10px red;
 	}
 
 		a{
 			text-decoration: none;
 			font-size: 1.5em;
 			color: white;
+			padding-right: 20px;
 		}
 
-	@media (max-width: 941)
-	
+@media (max-width: 550px){
+	a{padding-right: 0px;}
+}
