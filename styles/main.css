@@ -18,30 +18,26 @@ html{
 }
 
 .blognav{
+	position: relative;
 	display: block;
 	empty-cells: show;
 	border-bottom: none;
 	width: 90%;
-	border: solid 10px blue;
+}
+
+.weekhead{
+	padding-left: 1rem;
+	text-align: right;
+	border-style: none;
+	width: 20%;
 }
 
 .bloglinks{
 	background-color: rgba(10, 10, 10, 0.2);
-	border: solid 10px green;
 	width: 70%;
 }
 
-	.weekhead{
-		padding-left: 1rem;
-		text-align: right;
-		border-style: none;
-		width: 20%;
-		border: solid 10px red;
-		/*position: relative;*/
-	}
-
 	.weekbody{
-		/*display: -webkit-flex;*/
 		display: inline-flex;
 		flex-wrap: wrap;
 		padding-bottom:1.5rem;
