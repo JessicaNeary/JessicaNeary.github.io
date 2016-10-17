@@ -10,6 +10,10 @@ html{
 	text-shadow: 3px 3px 3px #000000;
 }
 
+/**/
+/***HOMEPAGE STYLING***/
+/**/
+
 .header{
 	text-align: center;
 	margin-top:20px;
@@ -41,7 +45,6 @@ html{
 		display: inline-flex;
 		flex-wrap: wrap;
 		padding-bottom:1.5rem;
-		border: solid 10px red;
 	}
 
 		a{
@@ -54,3 +57,37 @@ html{
 @media (max-width: 550px){
 	a{padding-right: 0px;}
 }
+
+/**/
+/***BLOG PAGE STYLING***/
+/**/
+
+.blogheader{
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+
+	.pagetitle{
+		text-transform: uppercase;
+		margin-top: 50px;
+		padding: 10px 0px;
+		border-top: solid 1px white;
+		border-bottom: solid 1px white;
+	}
+
+	.date{
+		float:left;
+	}
+
+	#home{
+		float:right;
+	}
+
+.blog{
+	overflow-x: auto;
+		background-color: rgba(10, 10, 10, 0.2);
+		padding: 2rem;
+}
+
+	.q{font-style: italic;}
