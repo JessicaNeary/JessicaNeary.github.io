@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"knex": "knex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaNeary/JessicaNeary.github.io.git"
+  },
+  "author": "JessicaNeary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaNeary/JessicaNeary.github.io/issues"
+  },
+  "homepage": "https://github.com/JessicaNeary/JessicaNeary.github.io#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "knex": "^0.12.6",
+    "path": "^0.12.7",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
